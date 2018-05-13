@@ -1,0 +1,50 @@
+
+header {
+	background-color: #555;
+}
+
+header ul{
+	text-align:center;
+}
+
+header a:hover{
+	font-weight:bold;
+}
+
+header ul li{
+	display: inline-block;
+	vertical-align: middle;
+	text-align:center;
+
+}
+
+.menu li:not(:first-child) {
+	margin-left: 3rem;
+}
+
+.menu a {
+	text-decoration: none;
+	color: #FFF;
+	letter-spacing: .05rem;
+	font-weight: 300;
+}
+
+
+
+header .container {
+	justify-content: center;
+	padding: .5rem 0;
+}
+
+.menu-item-type-custom a {
+	height: 80px;
+	width: 150px;
+	text-indent: -9999px;
+	display: block;
+}
+
+.menu-item-type-custom {
+	background-image: url(../imagens/Malura-logo.svg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
